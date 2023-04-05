@@ -8,8 +8,9 @@
             <img src="images/logo.svg" alt="Logo" width="80" height="80">
         </a>
     </div>
-    <div width="30%">
+    <div >
         <h3 align="center">Built With</h3> 
+        <p>
             [![RUST][rust]][rust-url]
             [![Javacript][javascript]][javascript-url]
             [![Mosquitto][mosquitto]][mosquitto-url]
@@ -17,6 +18,7 @@
             [![Shelly][shelly]][shelly-url]
             [![Tempest][tempest]][tempest-url]
             [![SQLite][sqlite]][sqlite-url]
+        </p>
     </div>
 </div>
 
