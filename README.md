@@ -1,7 +1,5 @@
-<!-- Improved compatibility of back to top link: See: https://github.com/CarlosLagarto/controller_share -->
 <a name="readme-top"></a>
 
-<!-- PROJECT LOGO -->
 <br />
 <div style="display: flex;">
     <div align="center" width="20%">
@@ -10,20 +8,19 @@
             <img src="images/logo.svg" alt="Logo" width="80" height="80">
         </a>
     </div>
-    <div width="80%">
-        <h3 align="center">Built With</h3>
-* [![RUST][rust]][rust-url]
-* [![Javacript][javascript]][javascript-url]
-* [![Mosquitto][mosquitto]][mosquitto-url]
-* [![Apache][apache]][apache-url]
-* [![Shelly][shelly]][shelly-url]
-* [![Tempest][tempest]][tempest-url]
-* [![SQLite][sqlite]][sqlite-url]
+    <div width="30%">
+        <h3 align="center">Built With</h3> 
+            * [![RUST][rust]][rust-url]
+            * [![Javacript][javascript]][javascript-url]
+            * [![Mosquitto][mosquitto]][mosquitto-url]
+            * [![Apache][apache]][apache-url]
+            * [![Shelly][shelly]][shelly-url]
+            * [![Tempest][tempest]][tempest-url]
+            * [![SQLite][sqlite]][sqlite-url]
     </div>
 </div>
 
 
-<!-- TABLE OF CONTENTS -->
 <details>
   <summary>Table of Contents</summary>
   <ol>
@@ -36,9 +33,6 @@
   </ol>
 </details>
 
-
-
-<!-- ABOUT THE PROJECT -->
 ## About The Project </p>
 <p><strong>IoT backend controller + SPA Client + ML for next day rain probability.</strong></p>
 <br>
@@ -60,31 +54,23 @@ Apache only serves https requests, and internally the requests are proxied to th
 Also defined some rules to allow for two environments (dev/test and production) as I use the same machine. All the devices have fixed IPs.
 
 
-<!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
-
 <div align="center">
   <a href="https://github.com/CarlosLagarto/controller_share">
-    <!-- <img src="images/logo.svg" alt="Logo" width="80" height="80">-->
     <img src="images/Screenshot_Weather.jpg" alt="Weather" height="370" > 
   </a>
   <a href="https://github.com/CarlosLagarto/controller_share">
-    <!-- <img src="images/logo.svg" alt="Logo" width="80" height="80">-->
     <img src="images/Screenshot_LawnWatering.jpg" alt="Lawn"  height="370"> 
   </a>
   <a href="https://github.com/CarlosLagarto/controller_share">
-    <!-- <img src="images/logo.svg" alt="Logo" width="80" height="80">-->
     <img src="images/Screenshot_CENAS.jpg" alt="Devices"  height="370"> 
   </a>
   <a href="https://github.com/CarlosLagarto/controller_share">
-    <!-- <img src="images/logo.svg" alt="Logo" width="80" height="80">-->
     <img src="images/Screenshot_COISAS_Config.jpg" alt="Config" height="370" > 
   </a>  
 </div>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-<!-- GETTING STARTED -->
 ## Installation
 
 I will give more details, but the general instalation procedure is:
@@ -104,13 +90,13 @@ Any updates if/when necessary will be done also through SQL commands<br>
 <!-- ROADMAP -->
 ## Roadmap
 
-As of 2023/Apr/5, weather data and lawn watering in the manual and standard modes is ready and in production for 4 months.
+As of 2023/Apr/5, weather data and lawn watering in the manual and standard modes are ready and in production for 4 months.
 
 - [ ] Add Changelog
 - [ ] Terminate testing of lawn watering wizard mode
 - [ ] Terminate devices and scenarios control (client and backend)
 
-See the [open issues](https://github.com/CarlosLagarto/controller_share/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/CarlosLagarto/controller_share/issues) for a list of known issues.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -127,9 +113,10 @@ Code is free to everyone who may need it.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - Carlos Lagarto
+Carlos Lagarto
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Project Link: [https://github.com/CarlosLagarto/controller_share]
+<!-- (https://github.com/your_username/repo_name) -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
