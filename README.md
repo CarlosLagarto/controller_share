@@ -58,18 +58,16 @@
 <p><strong>IoT backend controller + SPA Client + ML for next day rain probability.</strong></p>
 <br>
 <p><strong>Why:</strong> Just to keep my "nerd" spirit updated technology wise regarding HTML5, CSS3, SVG, RUST, Javascript ECMA2015, WebApps, Apache, SqLite, Linux, ...</p>
-<br>
 <p>First version was made with Python and MySql in the backend, but I simplified the database engine (sqlite uses less server resources than mysql) and with rust we use much less CPU, meaning lower power consuption (0%..0.5% versus 20%..40%)</p>
 <p>Smart control for lawn watering, house central heater, integration and control of weather station data, and other sensors and actuators, with custom automation scenaries.</p>
 <br>
-<p><strong> How it work:</strong> Async sistributed system, with rust near real time controller, running on a intel NUC with linux/ubuntu.</p> 
-<br>
+<p><strong> How it work:</strong> Async distributed system, with rust near real time controller, running on a intel NUC with linux/ubuntu.</p> 
 <p>The controller integrates and bridges the external devices:</p>
-<p>- <i>Shellies</i> to control the lawn water valves, central heater, shutters, esternal gate, etc.</p>
-<p>- <i>Tempest</i> - weather station with readings each minute. Station transmit UDP packets, and we have a fail safe REST API channel to tempest site.</p>
-<p>- <i>Mosquitto MQTT Broker</i> near real-time clients integration (commands and status reading).</p>
-<p>- <i>Apache Web</i> for the SPA web application </p>
-<p>- <i>Green IT</i> - power consuption bellow 0.5% CPU.</p>
+* <i>Shellies</i> to control the lawn water valves, central heater, shutters, esternal gate, etc.
+* <i>Tempest</i> - weather station with readings each minute. Station transmit UDP packets, and we have a fail safe REST API channel to tempest site.
+* <i>Mosquitto MQTT Broker</i> near real-time clients integration (commands and status reading).
+* <i>Apache Web</i> for the SPA web application 
+* <i>Green IT</i> - power consuption bellow 0.5% CPU.
 <br>
 
 <!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
@@ -77,7 +75,7 @@
 <div align="center">
   <a href="https://github.com/CarlosLagarto/controller_share">
     <!-- <img src="images/logo.svg" alt="Logo" width="80" height="80">-->
-    <img src="images/Screenshot_Weather.jpg" alt="Weather" width="50" height="80" > 
+    <img src="images/Screenshot_Weather.jpg" alt="Weather" width="80" height="200" > 
   </a>
   <a href="https://github.com/CarlosLagarto/controller_share">
     <!-- <img src="images/logo.svg" alt="Logo" width="80" height="80">-->
@@ -211,9 +209,9 @@ Just a special thanks to the RUST community and Mozzila that have made this jour
 [javascript-url]:https://developer.mozilla.org/pt-BR/docs/Web/JavaScript
 [mosquitto]:https://img.shields.io/badge/mosquitto-MQTT%20Broker-yellowgreen?&style=for-the-badge
 [mosquitto-url]:https://mosquitto.org/
-[apache]: https://img.shields.io/badge/Apache-HTTP%20Server-yellowgreen
+[apache]: https://img.shields.io/badge/Apache-HTTP%20Server-yellowgreen?&style=for-the-badge
 [apache-url]:https://httpd.apache.org/
-[shelly]:https://img.shields.io/badge/Shelly-Home%20Automation-yellowgreen
+[shelly]:https://img.shields.io/badge/Shelly-Home%20Automation-yellowgreen?&style=for-the-badge
 [shelly-url]:https://www.shelly.cloud/en-pt
-[tempest]:https://img.shields.io/badge/Tempest-Weather%20Station-yellowgreen
+[tempest]:https://img.shields.io/badge/Tempest-Weather%20Station-yellowgreen?&style=for-the-badge
 [tempest-url]: https://weatherflow.com/tempest-weather-system/
