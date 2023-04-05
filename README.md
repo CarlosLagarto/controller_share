@@ -77,7 +77,7 @@
 <div align="center">
   <a href="https://github.com/CarlosLagarto/controller_share">
     <!-- <img src="images/logo.svg" alt="Logo" width="80" height="80">-->
-    <img src="images/Screenshot_Weather.jpg" alt="Weather" height="80" > 
+    <img src="images/Screenshot_Weather.jpg" alt="Weather" width="50" height="80" > 
   </a>
   <a href="https://github.com/CarlosLagarto/controller_share">
     <!-- <img src="images/logo.svg" alt="Logo" width="80" height="80">-->
@@ -209,11 +209,11 @@ Just a special thanks to the RUST community and Mozzila that have made this jour
 [rust-url]: https://www.rust-lang.org/
 [javascript]: https://img.shields.io/badge/Javascript-ECMA2015-yellowgreen?&style=for-the-badge
 [javascript-url]:https://developer.mozilla.org/pt-BR/docs/Web/JavaScript
-[mosquitto]:https://img.shields.io/badge/mosquitto-MQTT Broker-yellowgreen?&style=for-the-badge
+[mosquitto]:https://img.shields.io/badge/mosquitto-MQTT%20Broker-yellowgreen?&style=for-the-badge
 [mosquitto-url]:https://mosquitto.org/
-[apache]: https://img.shields.io/badge/Apache-HTTP Server-yellowgreen
+[apache]: https://img.shields.io/badge/Apache-HTTP%20Server-yellowgreen
 [apache-url]:https://httpd.apache.org/
-[shelly]:https://img.shields.io/badge/Shelly-Home Automation-yellowgreen
+[shelly]:https://img.shields.io/badge/Shelly-Home%20Automation-yellowgreen
 [shelly-url]:https://www.shelly.cloud/en-pt
-[tempest]:https://img.shields.io/badge/Tempest-Weather Station-yellowgreen
+[tempest]:https://img.shields.io/badge/Tempest-Weather%20Station-yellowgreen
 [tempest-url]: https://weatherflow.com/tempest-weather-system/
