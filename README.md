@@ -17,7 +17,7 @@
 [![Tempest][tempest]][tempest-url] 
 [![SQLite][sqlite]][sqlite-url] 
 
-* [![Tempest][tempest]][tempest-url]
+[![Tempest][tempest]][tempest-url]
 * [![SQLite][sqlite]][sqlite-url]
 
 </div> 
