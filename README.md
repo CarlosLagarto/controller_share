@@ -75,7 +75,7 @@
 <div align="center">
   <a href="https://github.com/CarlosLagarto/controller_share">
     <!-- <img src="images/logo.svg" alt="Logo" width="80" height="80">-->
-    <img src="images/Screenshot_Weather.jpg" alt="Weather" width="80" height="200" > 
+    <img src="images/Screenshot_Weather.jpg" alt="Weather" height="300" > 
   </a>
   <a href="https://github.com/CarlosLagarto/controller_share">
     <!-- <img src="images/logo.svg" alt="Logo" width="80" height="80">-->
