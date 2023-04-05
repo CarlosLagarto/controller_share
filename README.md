@@ -9,7 +9,6 @@
         <a href="https://github.com/CarlosLagarto/controller_share">
             <img src="images/logo.svg" alt="Logo" width="80" height="80">
         </a>
-
     </div>
     <div width="80%">
         <h3 align="center">Built With</h3>
