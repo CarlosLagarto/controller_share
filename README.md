@@ -8,7 +8,7 @@
     </a>
 </div>
 <div>
-### Built With 
+### Built With
 
 [![RUST][rust]][rust-url]
 [![Javascript][javascript]][javascript-url]
