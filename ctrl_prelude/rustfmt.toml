@@ -1,0 +1,22 @@
+where_single_line = true
+use_small_heuristics = "Max"
+max_width = 145
+
+single_line_if_else_max_width = 145
+fn_call_width = 145
+reorder_impl_items = true
+normalize_comments = true
+merge_imports = true
+indent_style = "Visual"
+imports_indent = "Visual"
+fn_single_line = true
+fn_args_layout = "Compressed"
+enum_discrim_align_threshold = 40
+chain_width = 145
+attr_fn_like_width = 145
+array_width = 145
+overflow_delimited_expr = true
+group_imports="StdExternalCrate"
+struct_lit_width=145
+struct_variant_width=145
+struct_field_align_threshold = 40

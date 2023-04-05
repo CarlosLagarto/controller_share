@@ -1,0 +1,263 @@
+.col-label-sm1{
+    width: var(--col-label-sm1);
+    font-weight: var(--font-bold);
+    margin-left: 0.2rem;
+}
+
+.note{
+    font-size: 0.6rem;
+    font-weight:var(--font-normal);
+}
+
+.line-col-icon{
+    width: calc(var(--icon-size-body) + 0.4em);
+    margin-right: 0.4em;
+}
+
+.col-label-st{
+    width: var(--col-label-st);
+    font-weight: var(--font-bold);
+}
+
+.col-label-lg{
+    width: var(--col-label-lg);
+    font-weight: var(--font-bold);
+}
+
+.col-value-sm{
+    width: var(--col-value-sm);
+}
+
+.col-value-st{
+    width: var(--col-value-st);
+}
+
+.col-value-lg{
+    width: var(--col-value-lg);
+}
+
+#tempo-panel li{
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.aux-li{
+    height: 2.9em;
+    background: ghostwhite;
+}
+
+.c-chart-gauge__needle-base, .c-chart-gauge__needle {
+    fill: #555555;
+  }
+
+.chart-color1 {
+    fill: var(--lag-gray);
+  }
+  .chart-color2 {
+    fill: var(--lag-gray);
+  }
+  .chart-color3 {
+    fill: var(--lag-red);
+  }
+  .chart-color4 {
+    fill: var(--lag-orange);
+  }
+  .chart-color5 {
+    fill: var(--lag-green);
+  }
+  .chart-color6 {
+    fill: var(--lag-green);
+  }
+  .chart-color7 {
+    fill: var(--lag-orange);
+  }
+  .chart-color8 {
+    fill: var(--lag-red);
+  }
+  .chart-color9 {
+    fill: var(--lag-gray);
+  }
+  .chart-color10 {
+    fill: var(--lag-gray);;
+  }
+
+.press-diff-text{
+    font-size: 0.6rem;
+}
+.diff-press-first-line{
+    font-size: 0.6rem;
+}
+.diff-press-second-line{
+    font-size: 0.6rem;
+}
+
+
+/* BUSSOLA*/
+#needle {
+    transform-origin: 47px 47px;
+  }
+  
+  /*GRAFICOS WEATHER*/
+  .chart{
+      stroke-width: 1px;
+      stroke: var(--dark-primary-color);
+      fill: none;
+  }
+  .axis {
+      stroke: white;
+      fill: none;
+  }
+  
+  .tick {
+      stroke-width: 0.5px;
+      stroke: var(--primary-text-color);
+  }
+  
+  .chart  text {
+      font-size: 0.55rem;
+      opacity: 0.8;
+  }
+  
+  .domain {
+      fill: none;
+      stroke: white;
+  }
+  
+  .line {
+      fill: none;
+      stroke: var(--dark-primary-color);
+      stroke-width: 1.5;
+  }
+  
+  .wind circle{
+      fill:none;
+      stroke: var(--dark-primary-color);
+      stroke-opacity: 0.6;
+  }
+  
+  .wind .aragem{
+      fill:none;
+      stroke: darkgray;
+      stroke-opacity: .9;
+  }
+  .wind .moderado{
+      stroke: darkgray;
+      stroke-opacity: .9;
+  }
+  .wind .forte{
+      stroke: darkgray;
+      stroke-opacity: .9;
+  }
+  .wind .tempestade{
+      stroke: darkgray;
+      stroke-opacity: .9;
+  }
+  
+  .vertical-lines{
+      stroke-width: 0.5px;
+      stroke: var(--secondary-text-color );
+  }
+  
+  .fake-x-axis{
+      stroke-width: 0.7px;
+      stroke: var(--primary-text-color);
+  }
+
+.y-axis{
+    width: var(--col-value-sm);
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    height: var(--col-svg-square-sm-graph-h);
+}
+
+.min-line{
+    stroke-width: 0.8px;
+    stroke: var(--default-primary-color );
+}
+
+.max-line{
+    stroke-width: 0.8px;
+    stroke: #952B32;
+}
+
+.chart .min-label{
+    font-size: 0.55rem;
+    opacity: 1;
+    stroke: var(--default-primary-color );
+    stroke-width: 0.6px;
+}
+
+.chart .max-label{
+    font-size: 0.55rem;
+    opacity: 1;
+    stroke: #952B32;
+    stroke-width: 0.6px;
+}
+
+.chart .maxmin-label{
+    font-size: 0.55rem;
+    opacity: 1;
+    stroke: var(--secondary-text-color );
+    stroke-width: 0.6px;
+}
+
+.chart .x-axis-label{
+    font-size: 0.55rem;
+    opacity: 1;
+    stroke: var(--secondary-text-color );
+    stroke-width: 0.6px;
+}
+
+.line {
+    fill: none;
+    stroke: var(--dark-primary-color);
+    stroke-width: 2px;
+  }
+
+  .col-svg-sm-dwg{
+    width: 25vw;
+    height: 25vw;
+    margin-left: auto;
+}
+
+.col-svg-sm2-dwg{
+    width: 25vw;
+    height: 25vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.col-svg-sm-graph{
+    height: var(--col-svg-square-sm-graph-h);
+    text-align: center;
+    margin-top: var(--margin-top);
+    margin-bottom: var(--margin-bottom);
+}
+
+.col-weather-acc{
+    font-weight: var(--font-bold);
+    width: 19vw;
+    text-align: right;
+}
+
+.svg-flow-helper{
+    display: flex;
+    width: 100%;
+}
+
+.weather-ref-line{
+    min-height: 15vh;
+}
+
+/* #blocker-rega {
+    display: none; z-index: 99;
+    width: 100%; height: 100%;
+    position: absolute; top: 0; left: 0;
+    background: rgb(97 120 242 / 30%);
+  } */
+
+  .mode-rega{
+    min-width: 20.7vw;
+    text-align: center;
+  }

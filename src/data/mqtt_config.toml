@@ -1,0 +1,6 @@
+broker_port = 1883
+web_broker_port = 473
+broker_address = 'localhost'
+client_id = 'LagartoController'
+web_broker_address = '127.0.0.1'
+wait_mqtt_chk_interval = 10 # segundos?     # dyn rarely

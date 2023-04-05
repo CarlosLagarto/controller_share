@@ -1,0 +1,7 @@
+directory = "home/lagarto/DEV/RUST/controller/logs"
+file = "watering_engine"
+level = "debug"
+nr_of_days_to_maintain_log_files = 20
+mb_limit = 268435456
+# usado para testes - em produção deve estar 0.  Em desenvolvimento e testes é 1.
+test_in_progress = 1

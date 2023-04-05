@@ -1,0 +1,76 @@
+
+.cap-badge {
+    position: relative;
+    white-space: nowrap;
+    margin-right: 24px; }
+    .cap-badge:not([data-badge]) {
+      margin-right: auto; }
+    .cap-badge[data-badge]:after {
+      content: attr(data-badge);
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-flex-direction: row;
+          -ms-flex-direction: row;
+              flex-direction: row;
+      -webkit-flex-wrap: wrap;
+          -ms-flex-wrap: wrap;
+              flex-wrap: wrap;
+      -webkit-justify-content: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-align-content: center;
+          -ms-flex-line-pack: center;
+              align-content: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      position: absolute;
+      top: -11px;
+      right: -24px;
+      font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+      font-weight: 600;
+      font-size: 12px;
+      width: 22px;
+      height: 22px;
+      border-radius: 50%;
+      background: rgb(255,64,129);
+      color: rgb(255,255,255); 
+    }
+  
+  .cap-badge1 {
+    position: relative;
+    white-space: nowrap;
+    margin-right: -54px; }
+    .cap-badge1:not([data-badge]) {
+      margin-right: auto; }
+    .cap-badge1[data-badge]:after {
+      content: attr(data-badge);
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-flex-direction: row;
+          -ms-flex-direction: row;
+              flex-direction: row;
+      -webkit-flex-wrap: wrap;
+          -ms-flex-wrap: wrap;
+              flex-wrap: wrap;
+      -webkit-justify-content: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-align-content: center;
+          -ms-flex-line-pack: center;
+              align-content: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      position: absolute;
+      top: 0px;
+      font-size: 12px;
+      height: 18px;
+      border-radius: 22px;
+      background: rgb(255,64,129);
+      color: rgb(255,255,255);
+      padding: 0 3px;
+      padding-top: 1px;
+    }

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="38.830223mm"
+   height="38.830227mm"
+   viewBox="0 0 38.830223 38.830227"
+   version="1.1"
+   id="svg3711"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs3708" />
+  <g
+     id="layer1"
+     transform="translate(-6.8429519,-53.681658)">
+    <circle
+       style="fill:#ffffff;fill-opacity:1;stroke:#000000;stroke-width:1.927;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3.7;stroke-dasharray:none"
+       id="path2175"
+       cx="26.258064"
+       cy="73.096771"
+       r="18.451612" />
+    <g
+       id="g3063"
+       transform="rotate(90,86.580629,44.665293)">
+      <rect
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1.927;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3.7;stroke-dasharray:none"
+         id="rect2709-0"
+         width="3.1935484"
+         height="12.774193"
+         x="113.41531"
+         y="93.411285" />
+      <path
+         style="fill:#000000;stroke:#000000;stroke-width:1.927;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3.7"
+         d="m 123.92742,107.24999 -17.83065,-0.0887 8.60484,9.40322 z"
+         id="path2959" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.175px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;stroke:#000000;stroke-width:0.227;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3.7;stroke-dasharray:none"
+       x="27.207193"
+       y="68.41069"
+       id="text3212"><tspan
+         id="tspan4111"
+         x="27.207193"
+         y="68.41069">OPEN</tspan></text>
+  </g>
+</svg>

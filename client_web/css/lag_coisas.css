@@ -1,0 +1,112 @@
+
+.coisas-panel .page{
+    display: flex;
+    flex-direction: column;
+}
+
+.linearize{
+    display: block;    
+}
+
+.config-no-connection-info {
+    background-color: var(--accent-color);
+    color: white;
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+    font-size: var(--font-size-separators);
+
+    border: none;
+    outline: none;
+    display: flex;
+    align-items: center;
+    text-shadow: 1px 1px darkgrey;
+}
+
+.coisas-container li{
+    word-break: break-word;
+}
+
+/*ACERTOS DIALOGS*/
+.adjust-second-column-margin{
+    margin-left: 10px;
+}
+
+/* accordion cenas*/
+
+/* coisas alertas*/
+.accordion2-header{
+    background-color: var(--light-primary-color);
+    color: var(--primary-text-color);
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+    font-size: var(--font-size-separators);
+    display: flex;
+    line-height: 3.0rem;
+}
+
+.accordion2 {
+    max-height: 0px;
+    opacity: 0;
+    overflow: hidden;
+    transition-property: opacity, max-height;
+    transition-duration: .4s, .4s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+.accordion__col-1{
+    width: 113vw;
+    align-self: center;
+}
+
+.accordion__col-1_V2{
+    width: 100%;
+    align-self: center;
+}
+
+
+.accordion__mdl-checkbox__helper{
+    width: 20px;
+}
+
+.accordion__mdl-switch__helper{
+    margin-right: 11px;
+    width: auto;
+}
+
+
+.alert-div-helper{
+    width: 100%;
+    display: flex;
+}
+.alert-span-helper{
+    width: 100%;
+    text-align: right;
+}
+
+.alertas-coisas_open{
+    overflow-y: auto;
+    max-height: calc(100vh - 10 * var(--standard-line-height) - var(--footer-height) - var(--nav-height) - var(--nav-height-adjust) - var(--height-adjust) - var(--header-adjust) + 4px);
+}
+
+.set-up-group{
+    display: flex;
+    flex-direction: column;
+}
+
+.setup-coisas_open{
+    overflow-y: auto;
+    max-height: calc(100vh - 12 * var(--standard-line-height) - var(--footer-height) - var(--nav-height) - var(--nav-height-adjust) - var(--height-adjust) - var(--header-adjust) + 4px);
+}
+
+  
+/*faz as bandas alternadas no panel*/
+[id^="setup-group-"]>div:nth-of-type(2n+2){
+    background: rgba(63, 81, 181, 0.1);
+}
+
+[id="coisas-alertas"] ul li:nth-of-type(2n+2){
+    background: rgba(63, 81, 181, 0.1);
+}

@@ -1,0 +1,21 @@
+[package]
+name = "electronics"
+version = "0.1.0"
+authors = ["Carlos.Lagarto <carlos.lagarto@gmail.com>"]
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+name = "electronics"
+crate-type = ["lib"]
+test = true
+bench = false
+
+[dependencies]
+num_enum = "0.5.7"
+strum_macros="0.24.3"
+
+ctrl_lib = {path = "../ctrl_lib", version = "0.1.0" }
+ctrl_prelude = {path = "../ctrl_prelude", version = "0.1.0" }
+

@@ -1,0 +1,129 @@
+.radioGroup {
+    --color: var(--dark-primary-color);
+    --border: var(--dark-primary-color);
+    --border-width: 2px;
+    display: flex;
+    font-size: 0.74rem;
+    font-weight: 600;
+}
+
+.radioGroup label {
+    cursor: pointer;
+}
+
+.radioGroup label input {
+    display: none;
+}
+
+.radioGroup label:first-child input + span {
+    border-radius: 6px 0 0 6px;
+}
+
+.radioGroup label input:checked + span {
+    z-index: 2;
+    background: var(--dark-primary-color);
+    border-color: var(--dark-primary-color);
+    color: var(--text-primary-color);
+}
+
+.radioGroup label input[disabled]:checked + span{
+    z-index: 2;
+    background: var(--divider-color);
+    border-color: var(--disabled-color);
+    color: var(--text-primary-color);
+    box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, 0.2), inset 0px 0px 0px 0px rgba(0, 0, 0, 0.3), 0px 0px 0px 0px rgba(0, 0, 0, 0.2);
+    border: 0.0px solid;
+    height: 100%;
+}
+
+.radioGroup label input[disabled] + span{
+    z-index: 2;
+    background: var(--disabled-color);
+    border-color: var(--divider-color);
+    color: #75757570;
+    box-shadow: inset 1.1px 0px 0px -1px rgba(0, 0, 0, 0.2), inset 0px 0px 0px -1px rgba(0, 0, 0, 0.3), -1px 0px 0px 0px rgba(0, 0, 0, 0.15);
+    border: 0.5px solid;
+}
+
+.radioGroup label input + span {
+    display: block;
+    position: relative;
+    padding: 3px 5px;
+    border: var(--border-width) solid var(--border);
+    transition: background .4s ease-in-out, border-color .4s ease-in-out;
+}
+
+.radioGroup label:not(:first-child) {
+    margin-left: calc(var(--border-width) * -1);
+}
+
+.radioGroup label:last-child input + span {
+    border-radius: 0 6px 6px 0;
+}
+
+/* PARA A MUDANÇA DE ESTADO DOS SETORES*/
+.radioGroup1 {
+    --color: var(--dark-primary-color);
+    --border: var(--dark-primary-color);
+    --border-width: 1px;
+    display: flex;
+    font-size: 0.6rem;
+    font-weight: 600;
+    margin-right: 3px;
+    margin-top: 2px;
+    box-shadow: inset -1px 2px 1px 0 rgba(0, 0, 0, 0.2), inset -1px -1px 3px 0px rgba(0, 0, 0, 0.3), 0px 1px 0px 0px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+.radioGroup1 label {
+    cursor: pointer;
+}
+
+.radioGroup1 label input {
+    display: none;
+}
+
+.radioGroup1 label:first-child input + span {
+    border-radius: 10px 0 0 10px;
+}
+
+.radioGroup1 label input:checked + span {
+    z-index: 2;
+    background: var(--dark-primary-color);
+    border-color: var(--dark-primary-color);
+    color: var(--text-primary-color);
+}
+
+.radioGroup1[disabled] label input:checked + span{
+    z-index: 2;
+    background: var(--divider-color);
+    border-color: var(--disabled-color);
+    color: rgba(0, 0, 0, 0.6);
+
+    box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, 0.2), inset 0px 1px 0px -1px rgba(0, 0, 0, 0.3), 0px 2px 1px 0px rgba(0, 0, 0, 0.2);
+    border: 0px solid;
+}
+
+.radioGroup1[disabled] label input + span{
+    z-index: 2;
+    background: var(--disabled-color);
+    border-color: var(--disabled-color);
+    color: #75757570;
+    box-shadow: inset 1.1px 0px 0px -1px rgba(0, 0, 0, 0.2), inset 0px 0px 0px -1px rgba(0, 0, 0, 0.3), -1px 0px 0px 0px rgba(0, 0, 0, 0.15);
+}
+
+.radioGroup1 label input + span {
+    display: block;
+    position: relative;
+    padding:  2px 2px;
+    border: var(--border-width) solid var(--border);
+    transition: background .4s ease-in-out, border-color .4s ease-in-out;
+}
+
+.radioGroup1 label:not(:first-child) {
+    margin-left: calc(var(--border-width) * -1);
+}
+
+.radioGroup1 label:last-child input + span {
+    border-radius: 0 10px 10px 0;
+}

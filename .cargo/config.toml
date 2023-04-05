@@ -1,0 +1,9 @@
+[env]
+# Set even if already present in environment
+# OPENSSL_DIR = { value = "/usr/local/src/openssl-1.1.1q", force = true }
+#OPENSSL_LIB_DIR = { value = "/usr/lib/x86_64-linux-gnu", force = true }
+#OPENSSL_INCLUDE_DIR = { value = "/usr/local/src/openssl-1.1.1q/include", force = true }
+# PAHO_MQTT_C_INCLUDE_DIR = {value="/usr/lib/gcc/x86_64-linux-gnu/9/", force=true}
+
+[target.x86_64-unknown-linux-gn]
+rustflags=["-Ctarget-cpu=native", "-Cembed-bitcode=yes", "-C lto"]

@@ -1,0 +1,44 @@
+{
+    "status": {
+        "status_code": 0,
+        "status_message": "SUCCESS"
+    },
+    "device_id": 211801,
+    "type": "obs_st",
+    "source": "cache",
+    "summary": {
+        "pressure_trend": "steady",
+        "strike_count_1h": 0,
+        "strike_count_3h": 0,
+        "precip_total_1h": 0.0,
+        "feels_like": 28.7,
+        "heat_index": 28.7,
+        "wind_chill": 28.5
+    },
+    "obs": [
+        [
+            1658487610,
+            0,
+            0,
+            0,
+            0,
+            3,
+            1007,
+            28.5,
+            47,
+            2211,
+            0.18,
+            18,
+            0,
+            0,
+            0,
+            0,
+            2.61,
+            1,
+            0,
+            null,
+            null,
+            0
+        ]
+    ]
+}

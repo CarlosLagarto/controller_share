@@ -1,0 +1,16 @@
+[package]
+name = "ctrl_prelude"
+version = "0.1.0"
+authors = ["Carlos.Lagarto <carlos.lagarto@gmail.com>"]
+edition = "2021"
+
+
+[lib]
+name = "ctrl_prelude"
+crate-type = ["lib"]
+test = true
+bench = false
+proc-macro = true
+
+[dependencies]
+string_concat = "0.0.1"

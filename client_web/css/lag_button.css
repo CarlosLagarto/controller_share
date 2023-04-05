@@ -1,0 +1,46 @@
+
+/*Botões*/
+
+.lag-btn {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    text-transform: uppercase;
+    font-size: var(--font-size-body);
+
+    /* create a small space when buttons wrap on 2 lines */
+    margin: 2px 0;
+    height: 1.5rem;
+
+    /* invisible border (will be colored on hover/focus) */
+    border: solid 1px transparent;
+    border-radius: 20px;
+
+    /* size comes from text & padding (no width/height) */
+    padding: 0.45em 0.5em;
+
+    /* make sure colors have enough contrast! */
+    color: var(--text-primary-color);
+    background-color: var(--default-primary-color);
+
+    box-shadow:  -1px 2px 2px 0 rgba(0, 0, 0, 0.14), 2px 2px 3px -1px rgba(0, 0, 0, 0.2), 0px 0px 5px 0 rgba(0, 0, 0, 0.12);
+}
+
+.lag-btn[disabled]{
+    background-color: #dfe1e2;
+    box-shadow: 0px 0px 0px 0 rgba(0, 0, 0, 0.14), 0px 0px 0px 0px rgba(0, 0, 0, 0.2), 0px 0px 0px 0 rgba(0, 0, 0, 0.12);
+}
+
+/* old-school "down" effect on click + color tweak */
+.lag-btn:active {
+  transform: translateY(1.8px);
+  filter: brightness(90%);
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.5), 0px 0px 1px 0px rgba(0, 0, 0, 0.3), 0px 0px 0px 0px rgba(0, 0, 0, 1.0);
+}
+
+/* make sure we have a visible focus ring */
+.lag-btn:focus {
+    outline: none;
+    box-shadow:  -1px 2px 2px 0 rgba(0, 0, 0, 0.14), 2px 2px 3px -1px rgba(0, 0, 0, 0.2), 0px 0px 5px 0 rgba(0, 0, 0, 0.12);
+}

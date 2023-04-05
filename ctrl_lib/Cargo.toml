@@ -1,0 +1,52 @@
+[package]
+name = "ctrl_lib"
+version = "0.1.0"
+authors = ["Carlos.Lagarto <carlos.lagarto@gmail.com>"]
+edition = "2021"
+
+[lib]
+name = "ctrl_lib"
+crate-type = ["lib"]
+test = true
+bench = false
+proc-macro = true
+
+[dependencies]
+arrayvec = { version="0.7.2", features=["serde"] }
+fastuuid = "0.3.0"
+# a partir desta versão volta a utiizar o chrono
+flexi_logger = { version = "0.23.3", default-features = false, features = ["async", "specfile", ] }
+lazy_static = "1.4.0"
+lexical = { version = "6.1.1", default-features = false, features = [ "write-integers" ] }
+log = { version = "0.4.17", default-features = false, features = ["std"] }
+minreq = { version = "2.6.0", features = ["https-native", "json-using-serde"] }
+num_enum = "0.5.7"
+# as versões posteriores a esta estão com bug, para o meu use case no processamento assincrono
+paho-mqtt = { version = "0.10.0", default-features = false, features = ["bundled"] }
+parking_lot = "0.12.1" 
+parking_lot_core = "0.9.5"
+rand = "0.7.3"# para usar a versão que o fastuuid já usa.  
+rusqlite = { version = "0.28.0", default-features = false, features = [ "bundled", "limits", "column_decltype", "functions"] }
+rustc-hash = "1.1.0"
+serde = { version = "1.0.150", features = ["derive"] }
+serde_json = "1.0.89"
+string_concat = "0.0.1"
+strum = "0.24.1"
+strum_macros = "0.24.3"
+thiserror = "1.0.37"
+tiny_http = "0.12.0"
+toml = "0.5.10"
+libc = "0.2.138"
+# tungstenite = "0.17.3"
+
+# no_deadlocks = "1.3.0"
+
+ctrl_prelude = { path = "../ctrl_prelude", version = "0.1.0" }
+
+[dependencies.lexical-core]
+version = "0.8.5"
+default-features = false
+features = [ "write-integers", "write-floats", ] 
+
+[dev-dependencies]
+alloc_counter = "0.0.4"

@@ -1,0 +1,439 @@
+
+/*ANIMAÇAO PÁGINA REGA WAITING FOR MACHINE STATUS UPDATE*/
+.wait_status {
+    -webkit-animation: wait_status 2s ease both infinite;
+    animation: wait_status 2s ease both infinite;
+}
+
+@-webkit-keyframes wait_status {
+    from { opacity: 0.2; }
+    to { opacity: 1; }
+}
+@keyframes wait_status {
+    from { opacity: 0.2; }
+    to { opacity: 1; }
+}
+
+/* cenas rega */
+
+.cycle{
+    box-shadow: inset 1px 1px 0px 0 rgba(0, 0, 0, 0.24), inset 0px 0px 0px -1px rgba(0, 0, 0, 0.4), 1px 1px 3px 0px rgba(0, 0, 0, 0.3);
+    display: flex;
+}
+
+.cycle_sector_flow{
+    display: flex;
+    width: inherit;
+    align-items: center;
+}
+
+.executing{
+    display: flex;
+    flex-direction: row;
+}
+
+.label-value-pair{
+    display:flex;
+    align-items: center;
+}
+
+/* [class="cycle"]  */
+.cycle_ul_list li:nth-of-type(2n+2){
+    background: ghostwhite
+}
+
+.page-header-line{
+    height: 2.3rem;
+}
+
+.sectors-status{
+    min-width:45px;
+}
+
+:root{
+    --height-sector: 2.9rem;
+}
+
+.sector{
+    line-height: 0.9rem;
+    min-height: var(--height-sector);
+    margin: 3px 0px 3px 1px;
+}
+.sectors-svg{
+    width: 42px;
+    /*6 é o nr de setores*/
+    /*3px é a margem entre os setores*/
+    height: calc(6 * var(--height-sector) + (6 - 1) * 3px );
+    position: fixed;
+    margin-left: 1px;
+}
+
+.sector-status{
+    min-width: 44px;
+    min-height: var(--height-sector);
+}
+
+.sector-info{
+    width: calc(84.1vw - 2px);
+    border-style: solid;
+    border: 1px;
+    border-color: var(--divider-color);
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.1), -1px -1px 1px -1px rgba(0, 0, 0, 0.2), 2px 2px 2px -1px rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    min-height: var(--height-sector);
+}
+
+/* PROGRESS  BAR*/
+.ProgressBar {
+    width: 69.8vw;
+    height: 1.4em;
+    position: relative;
+    --vertical-align: middle;
+    margin: 0 5px;
+}
+
+.ProgressBar-background,
+.ProgressBar-percentage {
+    background: var(--dark-primary-color);
+    height: 100%;
+}
+
+.ProgressBar-background {
+    width: 100%;
+    background: white;
+    border: 2px solid var(--dark-primary-color);
+}
+
+.ProgressBar-percentage {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+}
+
+/* SECTOR SVG*/
+:root{
+    --box-top: 2.7px;
+    --box-left: 21px;
+    --box-side: 2.35rem;
+}
+.box{
+    height: var(--box-side);
+    width: var(--box-side);
+    position: relative;
+    top: var(--box-top);
+    left: var(--box-left);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-20px, 0%);
+    background: white;
+    border-radius: 100%;
+    overflow: hidden;
+    border: 1px solid var(--dark-primary-color);
+}
+
+.box .percent{
+    position: inherit;
+    left: 0;
+    top: 0;
+    z-index: 3;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    display: -webkit-flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--primary-text-color);
+    font-size: 0.8rem;
+    font-weight: var(--font-bold);
+  }
+
+.box  .water{
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    -webkit-transform: translate(0, 100%);
+    transform: translate(0, 100%);
+    background: var(--dark-primary-color);
+    transition: all .3s;
+ }
+
+.box .water_wave_back {
+    right: 0;
+    fill: var(--dark-primary-color);
+    -webkit-animation: wave-back 1.4s infinite linear;
+    animation: wave-back 1.4s infinite linear;
+}
+
+.box .water_wave {
+    width: 200%;
+    position: absolute;
+    bottom: 100%;
+}
+.box .water_wave_front {
+    left: 0;
+    fill: var(--dark-primary-color);
+    margin-bottom: -1px;
+    -webkit-animation: wave-front .7s infinite linear;
+    animation: wave-front .7s infinite linear;
+    opacity: 0.1;
+}
+
+@keyframes wave-front {
+  100% {
+    transform: translate(-50%, 0);
+  }
+}
+
+@keyframes wave-back {
+  100% {
+    transform: translate(50%, 0);
+  }
+}
+
+/*INDICADOR SETOR*/
+.score-sector{
+    height: var(--box-side);
+    width: var(--box-side);
+    position: relative;
+    top: var(--box-top);
+    left: var(--box-left);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-20px, 0%);
+    border-radius: 100%;
+    overflow: hidden;
+    text-align: center;
+    font-weight: var(--font-bold);
+    line-height: 2.3rem;
+}
+
+.score-sector.js-over-irrigated{
+    background-color: var(--dark-primary-color);
+    color: white;
+}
+
+.score-sector.js-normal{
+    background-color: var(--accent-color);
+    color: var(--primary-text-color);
+}
+
+.score-sector.js-alert{
+    background-color: orange;
+    color: var(--text-primary-color);
+}
+
+.score-sector.js-emergency{
+    background-color: red;
+    color: var(--text-primary-color);
+}
+
+.score-sector.js-undefined{
+    background-color: lightgray;
+    color: var(--text-primary-color);
+}
+
+
+/* simplificação do html para os setores separar a apresentação da formatação (html dos estilos)*/
+.sector-info__info{
+    width: 100%;
+}
+.sector-info__adjust-bottom{
+    margin-bottom: 8px;
+}
+.sector-info__status{
+    display: inline-flex;
+    align-items: center;
+}
+
+.normal-font{
+    font-weight: var(--font-normal) !Important;
+}
+
+.sector-info__buttons{
+    display: flex;
+    margin-top: 4px;
+}
+
+.sector-info__status__helper{
+    margin-right: 2px;
+}
+
+.sector-info__executing{
+    display: flex;
+    width: 100%;
+}
+.sector-info__executing__last-col-adjust{
+    margin-right: 2px;
+}
+
+.ProgressBar__sector-adjust{
+    width: inherit;
+    height: auto;
+}
+
+/* simplificação nas progress bars*/
+.executing__last-label{
+    margin-right: auto;
+}
+
+.modal__line-flow{
+    display: flex;
+}
+
+[id="contentModalSector"]>div.dialog-line:nth-of-type(2n+3){
+    background: rgba(63, 81, 181, 0.1);
+}
+
+.modalSector__switch__helper{
+    width: 45px;
+ }
+
+.full-width_helper{
+    width: 100%;
+}
+
+.modal-schedule__second-col{
+    min-width: 54vw;
+    font-weight: var(--font-normal);
+}
+
+.modal-schedule__second-col__3rd-line{
+    margin-top: 3rem;
+}
+.modal-schedule__second-col__2nd-line{
+    margin-top: 0.7rem;
+    display: flex;
+    align-items: center
+}
+
+.historico_rega_spacer{
+    /* height: 18vh; */
+    background-color: aliceblue;
+    opacity: 80%;
+    height: calc(51px + 6.5rem + var(--margin-top) + var(--margin-bottom));
+
+}
+
+.historico_rega_sep{
+    height: 6vh;
+}
+
+.historico_rega_placeholder{
+    opacity: 100;
+    background: white;
+    /* height: 64vh; */
+    overflow-y: auto;
+    overflow-x: hidden;
+    border: blue;
+    border-bottom-width: thin;
+    border-bottom-style: solid;
+    height: calc(94vh - 135px - 6.5rem - var(--margin-top) - var(--margin-bottom));
+}
+
+.historico_rega_data{
+    opacity: 100;
+    background: white;
+    height: 100%;    
+}
+
+.historico_rega_linha{
+    width: 90vw;
+    /* height: 2.3rem; */
+    padding-top: 1rem;
+    padding-bottom: 1rem;    
+}
+
+.div-header-hist-ciclo{
+    font-weight: 600;
+    font-size: 0.85rem;
+    color: rgba(0, 0, 0, 0.74);
+    display: flex;
+    margin-left: 5vw;
+}
+
+.lista-historico-ciclos{
+    display: flex;
+    flex-direction: column;
+}
+
+.hist-ciclo-data{
+    display: flex;
+    flex-direction: column;
+    margin-left: 5vw;
+}
+.col-inicio{
+    width: 21vw;
+}
+
+.col-nome{
+    width: 18vw;
+}
+
+.col-estado{
+    width: 18vw;
+}
+
+.col-fim{
+    margin-right: auto;
+}
+
+.historico_rega_linha_ciclo{
+    display: flex;
+    flex-direction: row;    
+}
+
+.hist_setores_ciclo{
+    display: flex;
+    flex-direction: column;    
+    font-weight: 500;
+    font-size: 0.75rem;
+}
+
+.hist_setor{
+    margin-left: 5vw;
+    font-weight: 500;
+    font-size: 0.75rem;
+    display: flex;
+    padding-top: 0.5rem;
+}
+
+.hist_setor_data{
+    margin-left: 5vw;
+    font-weight: 400;
+    /* font-size: 0.75rem; */
+    display: flex;
+}
+
+.hist_setor_lin_data{
+    display: flex;
+}
+
+.col-setor-inicio{
+    width: 10vw;
+}
+
+.col-setor-nome{
+    width: 15vw;
+}
+
+
+.col-setor-duracao{
+    width: 15vw;
+}
+
+
+.col-setor-fim{
+    width: 10vw;
+}
+
+.col-setor-estado{
+    width: 15vw;
+}
+
+[id^="li_hist_ciclo"]:nth-of-type(2n+1){
+    background: rgba(63, 81, 181, 0.1);
+}

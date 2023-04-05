@@ -1,0 +1,17 @@
+where_single_line= true
+use_small_heuristics = "Off"
+max_width = 161
+struct_field_align_threshold = 40
+single_line_if_else_max_width = 161
+fn_call_width = 161
+reorder_impl_items = true
+normalize_comments = true
+merge_imports = true
+indent_style = "Visual"
+imports_indent = "Visual"
+fn_single_line = true
+fn_args_layout = "Compressed"
+enum_discrim_align_threshold = 40
+chain_width = 161
+attr_fn_like_width = 161
+array_width = 161

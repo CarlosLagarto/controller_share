@@ -1,0 +1,4 @@
+port = 5003
+address = '0.0.0.0'
+test_port = 5004
+test_address = '127.0.0.1'

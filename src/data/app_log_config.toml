@@ -1,0 +1,5 @@
+directory = "c:/data/dev/rust/controller/logs"
+file = "watering_engine"
+level = "debug"
+nr_of_days_to_maintain_log_files = 20
+mb_limit = 268435456

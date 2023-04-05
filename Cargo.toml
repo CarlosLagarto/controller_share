@@ -1,0 +1,94 @@
+[workspace]
+members = ["ctrl_lib", "ctrl_prelude", "benchmarks"]
+
+[package]
+name = "controller"
+version = "0.1.0"
+authors = ["Carlos.Lagarto <carlos.lagarto@gmail.com>"]
+edition = "2021"
+
+[[bin]]
+name = "controller"
+test = true
+bench = true
+
+[dependencies]
+better-panic = "0.3.0"
+lazy_static = "1.4.0"                                      
+serde = { version = "1.0.150", features = ["derive"] }
+serde_json = "1.0.89"
+strum = "0.24.1"
+strum_macros = "0.24.3"
+thiserror = "1.0.37"             # este não suporta export - estupido
+toml = "0.5.10"
+
+ctrl_prelude = { path = "ctrl_prelude", version = "0.1.0" }
+ctrl_lib = { path = "ctrl_lib", version = "0.1.0" }
+
+
+[dev-dependencies]
+alloc_counter = "0.0.4"
+arrayvec = { version="0.7.2", features=["serde"] }
+assert_approx_eq = "1.1.0"
+assert_float_eq = "1.1.3"
+ctor = "0.1.26"
+itertools = "0.10.5"
+minreq = { version = "2.6.0", features = ["https-native", "json-using-serde"] }
+cache-size = "0.6.0"
+rand = "0.7.3"# para usar a versão que o fastuuid já usa.  
+num_enum = "0.5.7"
+flexi_logger = { version = "0.23.3", default-features = false, features = ["async", "specfile", ] }
+log="0.4.17"
+parking_lot = "0.12.1" 
+parking_lot_core = "0.9.5"
+
+[target.'cfg(windows)'.dependencies]
+winapi = { version = "0.3.9", features = ["consoleapi"] } #yes
+
+[target.'cfg(unix)'.dependencies]
+signal-hook = "0.3.14"
+
+[profile.dev]
+opt-level = 0 # controls the `--opt-level` the compiler builds with.
+# 0-1 is good for debugging. 2 is well-optimized. Max is 3.
+debug = true # include debug information (debug symbols). Equivalent to
+# `-C debuginfo=2` compiler flag.
+rpath = false # controls whether compiler should set loader paths.
+# If true, passes `-C rpath` flag to the compiler.
+lto = false # Link Time Optimization usually reduces size of binaries
+# and static libraries. Increases compilation time.
+# If true, passes `-C lto` flag to the compiler.cargo 
+debug-assertions = true # controls whether debug assertions are enabled
+# (e.g. debug_assert!() and arithmetic overflow checks)
+codegen-units = 1 # if > 1 enables parallel code generation which improves
+# compile times, but prevents some optimizations.
+# Passes `-C codegen-units`. Ignored when `lto = true`.
+panic = 'unwind' # panic strategy (`-C panic=...`), can also be 'abort'
+
+# The release profile, used for `cargo build --release`.
+[profile.release]
+opt-level = 3 # ou z para optimizar o tamanho - 1 a 3 otimiza a performance - threshold para utilização do inline?
+# debug = true
+rpath = false
+# lto = "fat" #"no" #"fat" #"no" #"thin" #true # "on" 
+debug-assertions = false
+codegen-units = 1
+panic = 'unwind'
+
+# The testing profile, used for `cargo test`.
+[profile.test]
+opt-level = 0
+debug = 2
+rpath = false
+lto = false
+debug-assertions = true
+codegen-units = 1
+
+# The benchmarking profile, used for `cargo bench`.
+[profile.bench]
+opt-level = 3
+debug = false
+rpath = false
+# lto = true  # true
+debug-assertions = false
+codegen-units = 1

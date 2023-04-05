@@ -1,0 +1,2 @@
+db_name = '/home/lagarto/DEV/RUST/controller/src/data/db.db'
+dw_name = '/home/lagarto/DEV/RUST/controller/src/data/dw.db'

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="60.487625mm"
+   height="13.51059mm"
+   viewBox="0 0 60.487625 13.51059"
+   version="1.1"
+   id="svg5"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs2">
+    <marker
+       style="overflow:visible"
+       id="Dot"
+       refX="0"
+       refY="0"
+       orient="auto"
+       markerWidth="3"
+       markerHeight="3"
+       viewBox="0 0 5.6666667 5.6666667"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5,0 C 5,2.76 2.76,5 0,5 -2.76,5 -5,2.76 -5,0 c 0,-2.76 2.3,-5 5,-5 2.76,0 5,2.24 5,5 z"
+         id="Dot1" />
+    </marker>
+  </defs>
+  <g
+     id="layer1"
+     transform="translate(-18.986962,-93.740705)">
+    <path
+       style="fill:#ffffff;stroke:#000000;stroke-width:1.05833;stroke-linecap:square;stroke-miterlimit:3.5;stroke-dasharray:3.175, 3.175;stroke-dashoffset:0"
+       d="M 19.516129,101.83871 H 32.645162"
+       id="path247" />
+    <path
+       style="fill:#ffffff;stroke:#000000;stroke-width:1.05833;stroke-linecap:square;stroke-miterlimit:3.5;stroke-dasharray:none;stroke-dashoffset:0.05;marker-end:url(#Dot)"
+       d="M 33.532258,101.83871 H 77.887094"
+       id="path249" />
+    <path
+       style="fill:#0085dd;fill-opacity:1;stroke:none;stroke-width:0.0546198;stroke-linecap:square;stroke-miterlimit:3.5;stroke-dasharray:none;stroke-dashoffset:0"
+       d="m 30.695542,102.41767 c 0,0 -0.594249,-1.79 -1.248033,-2.716317 -0.928726,-1.315855 -2.574083,-2.124706 -1.468275,-4.625064 0.752303,-1.701044 4.97668,-1.833012 5.579443,-0.07341 0.758869,2.215305 -0.521517,3.631528 -1.615102,4.625065 -0.980935,0.891196 -1.248033,2.789726 -1.248033,2.789726 z"
+       id="path1280" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.186386;stroke-linecap:square;stroke-miterlimit:3.5;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       x="26.066517"
+       y="107.12502"
+       id="text_dist_"><tspan
+         id="text_dist"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.23333px;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.186386;stroke-opacity:1"
+         x="26.066517"
+         y="107.12502">999</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.98502px;font-family:'Cambria Math';-inkscape-font-specification:'Cambria Math, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.186386;stroke-linecap:square;stroke-miterlimit:3.5;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       x="33.580055"
+       y="107.13136"
+       id="text_unit_"><tspan
+         id="text_unit"
+         x="33.580055"
+         y="107.13136"
+         style="fill:#000000;fill-opacity:1;stroke-width:0.186386">km</tspan></text>
+  </g>
+</svg>

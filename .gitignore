@@ -1,0 +1,5 @@
+*.log
+temp/
+target/
+*.lock
+LagartoController-localhost-1883

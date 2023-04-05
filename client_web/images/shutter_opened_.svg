@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="57.223309mm"
+   height="65.039421mm"
+   viewBox="0 0 57.223309 65.039421"
+   version="1.1"
+   id="svg1901"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1898" />
+  <g
+     id="layer1"
+     transform="translate(-47.323827,-71.448034)">
+    <g
+       id="g1958"
+       transform="translate(52.516128,-11.177416)">
+      <rect
+         style="fill:#116fff;stroke:#116fff;stroke-width:0.626533;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3.7"
+         id="rect242-7"
+         width="56.241936"
+         height="3.5483866"
+         x="-4.701612"
+         y="83.204849" />
+      <rect
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.626533;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3.7;stroke-opacity:1"
+         id="rect244-04"
+         width="0.7096774"
+         height="58.903225"
+         x="-4.701612"
+         y="88.448372" />
+      <rect
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.626533;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3.7;stroke-opacity:1"
+         id="rect244-0-5"
+         width="0.7096774"
+         height="58.903225"
+         x="51.008068"
+         y="88.448372" />
+      <rect
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.626532;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3.7;stroke-opacity:1"
+         id="rect244-0-7-8"
+         width="0.7096774"
+         height="52.516129"
+         x="88.882256"
+         y="-49.766125"
+         transform="rotate(90)" />
+      <rect
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.626532;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3.7;stroke-opacity:1"
+         id="rect244-0-7-7-3"
+         width="0.7096774"
+         height="52.516129"
+         x="90.833885"
+         y="-49.766125"
+         transform="rotate(90)" />
+      <path
+         style="fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.626533;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:3.7;stroke-opacity:1"
+         d="m -4.8790334,84.979039 v -2.04032 h 28.2983844 28.29839 v 2.04032 2.04033 H 23.419351 -4.8790334 Z"
+         id="path337-6" />
+    </g>
+  </g>
+</svg>
