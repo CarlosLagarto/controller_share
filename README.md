@@ -3,27 +3,38 @@
 
 <!-- PROJECT LOGO -->
 <br />
-<div align="center">
-  <a href="https://github.com/CarlosLagarto/controller_share">
-    <img src="images/logo.svg" alt="Logo" width="80" height="80">
-  </a>
+<div>
+    <div align="center" width="20%">
+        <a href="https://github.com/CarlosLagarto/controller_share">
+            <img src="images/logo.svg" alt="Logo" width="80" height="80">
+        </a>
+        <h3 align="center">Lagarto Controller</h3>
 
-  <h3 align="center">Lagarto Controller</h3>
+        <!-- <p align="center">
+            An awesome README template to jumpstart your projects!
+            <br />
+            <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
+            <br />
+            <br />
+            <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
+            ·
+            <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
+            ·
+            <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
+        </p> -->
+    </div>
+    <div width="20%">
+### Built With
 
-  <!-- <p align="center">
-    An awesome README template to jumpstart your projects!
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/othneildrew/Best-README-Template/issues">Request Feature</a>
-  </p> -->
+* [![RUST][rust]][rust-url]
+* [![Javacript][javascript]][javascript-url]
+* [![Mosquitto][mosquitto]][mosquitto-url]
+* [![Apache][apache]][apache-url]
+* [![Shelly][shelly]][shelly-url]
+* [![Tempest][tempest]][tempest-url]
+* [![SQLite][sqlite]][sqlite-url]
+    </div>
 </div>
-
 
 
 <!-- TABLE OF CONTENTS -->
@@ -32,9 +43,9 @@
   <ol>
     <li>
       <a href="#about-the-project">About The Project</a>
-      <ul>
+      <!-- <ul>
         <li><a href="#built-with">Built With</a></li>
-      </ul>
+      </ul> -->
     </li>
     <li>
       <a href="#getting-started">Getting Started</a>
@@ -98,17 +109,6 @@ Also defined some rules to allow for two environments (dev/test and production) 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Built With
-
-* [![RUST][rust]][rust-url]
-* [![Javacript][javascript]][javascript-url]
-* [![Mosquitto][mosquitto]][mosquitto-url]
-* [![Apache][apache]][apache-url]
-* [![Shelly][shelly]][shelly-url]
-* [![Tempest][tempest]][tempest-url]
-* [![SQLite][sqlite]][sqlite-url]
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 ## Installation
