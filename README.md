@@ -75,19 +75,19 @@
 <div align="center">
   <a href="https://github.com/CarlosLagarto/controller_share">
     <!-- <img src="images/logo.svg" alt="Logo" width="80" height="80">-->
-    <img src="images/Screenshot_Weather.jpg" alt="Weather" height="300" > 
+    <img src="images/Screenshot_Weather.jpg" alt="Weather" height="350" > 
   </a>
   <a href="https://github.com/CarlosLagarto/controller_share">
     <!-- <img src="images/logo.svg" alt="Logo" width="80" height="80">-->
-    <img src="images/Screenshot_LawnWatering.jpg" alt="Lawn" > 
+    <img src="images/Screenshot_LawnWatering.jpg" alt="Lawn"  height="350"> 
   </a>
   <a href="https://github.com/CarlosLagarto/controller_share">
     <!-- <img src="images/logo.svg" alt="Logo" width="80" height="80">-->
-    <img src="images/Screenshot_CENAS.jpg" alt="Devices" > 
+    <img src="images/Screenshot_CENAS.jpg" alt="Devices"  height="350"> 
   </a>
   <a href="https://github.com/CarlosLagarto/controller_share">
     <!-- <img src="images/logo.svg" alt="Logo" width="80" height="80">-->
-    <img src="images/Screenshot_COISAS_Config.jpg" alt="Config" > 
+    <img src="images/Screenshot_COISAS_Config.jpg" alt="Config" height="350" > 
   </a>  
 </div>
 
