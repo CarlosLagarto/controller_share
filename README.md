@@ -8,7 +8,7 @@
     </a>
 </div>
 <div>
-## Built With 
+### Built With 
 [![RUST][rust]][rust-url] 
 [![Javacript][javascript]][javascript-url] 
 [![Mosquitto][mosquitto]][mosquitto-url] 
@@ -16,6 +16,10 @@
 [![Shelly][shelly]][shelly-url] 
 [![Tempest][tempest]][tempest-url] 
 [![SQLite][sqlite]][sqlite-url] 
+
+* [![Tempest][tempest]][tempest-url]
+* [![SQLite][sqlite]][sqlite-url]
+
 </div> 
 
 
@@ -54,16 +58,16 @@ Also defined some rules to allow for two environments (dev/test and production) 
 
 
 <div align="center">
-  <a href="https://github.com/CarlosLagarto/controller_share">
+  <a href="images/Screenshot_Weather.jpg">
     <img src="images/Screenshot_Weather.jpg" alt="Weather" height="370" > 
   </a>
-  <a href="https://github.com/CarlosLagarto/controller_share">
+  <a href="images/Screenshot_LawnWatering.jpg">
     <img src="images/Screenshot_LawnWatering.jpg" alt="Lawn"  height="370"> 
   </a>
-  <a href="https://github.com/CarlosLagarto/controller_share">
+  <a href="images/Screenshot_CENAS.jpg">
     <img src="images/Screenshot_CENAS.jpg" alt="Devices"  height="370"> 
   </a>
-  <a href="https://github.com/CarlosLagarto/controller_share">
+  <a href="images/Screenshot_COISAS_Config.jpg">
     <img src="images/Screenshot_COISAS_Config.jpg" alt="Config" height="370" > 
   </a>  
 </div>
