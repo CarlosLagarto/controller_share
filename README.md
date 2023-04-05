@@ -1,24 +1,23 @@
 <a name="readme-top"></a>
 
 <br />
-<div display="flex">
-    <div align="center" width="20%">
-        <h3 align="center">Lagarto Controller</h3>
-        <a href="https://github.com/CarlosLagarto/controller_share">
-            <img src="images/logo.svg" alt="Logo" width="80" height="80">
-        </a>
-    </div>
-    <div width="40%">
-        <h3 align="center">Built With</h3>
-[![RUST][rust]][rust-url]
-[![Javacript][javascript]][javascript-url]
-[![Mosquitto][mosquitto]][mosquitto-url]
-[![Apache][apache]][apache-url]
-[![Shelly][shelly]][shelly-url]
-[![Tempest][tempest]][tempest-url]
-[![SQLite][sqlite]][sqlite-url]
-    </div>
+<div align="center">
+    <h3 align="center">Lagarto Controller</h3>
+    <a href="https://github.com/CarlosLagarto/controller_share">
+        <img src="images/logo.svg" alt="Logo" width="80" height="80">
+    </a>
 </div>
+<div>
+##Built With
+[![RUST][rust]][rust-url] 
+[![Javacript][javascript]][javascript-url] 
+[![Mosquitto][mosquitto]][mosquitto-url] 
+[![Apache][apache]][apache-url] 
+[![Shelly][shelly]][shelly-url] 
+[![Tempest][tempest]][tempest-url] 
+[![SQLite][sqlite]][sqlite-url] 
+</div>
+
 
 
 <details>
@@ -100,17 +99,12 @@ See the [open issues](https://github.com/CarlosLagarto/controller_share/issues) 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-<!-- LICENSE -->
 ## License
 
-Code is free to everyone who may need it.
+Distributed under the MIT License. See `license.txt` for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
-<!-- CONTACT -->
 ## Contact
 
 Carlos Lagarto
@@ -121,8 +115,6 @@ Project Link: [https://github.com/CarlosLagarto/controller_share]
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
-
-<!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
 Just a special thanks to the RUST community and Mozzila that have made this journey easier and fun!
