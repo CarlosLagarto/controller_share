@@ -10,13 +10,13 @@
     </div>
     <div width="30%">
         <h3 align="center">Built With</h3> 
-            * [![RUST][rust]][rust-url]
-            * [![Javacript][javascript]][javascript-url]
-            * [![Mosquitto][mosquitto]][mosquitto-url]
-            * [![Apache][apache]][apache-url]
-            * [![Shelly][shelly]][shelly-url]
-            * [![Tempest][tempest]][tempest-url]
-            * [![SQLite][sqlite]][sqlite-url]
+            [![RUST][rust]][rust-url]
+            [![Javacript][javascript]][javascript-url]
+            [![Mosquitto][mosquitto]][mosquitto-url]
+            [![Apache][apache]][apache-url]
+            [![Shelly][shelly]][shelly-url]
+            [![Tempest][tempest]][tempest-url]
+            [![SQLite][sqlite]][sqlite-url]
     </div>
 </div>
 
