@@ -54,8 +54,9 @@
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Project - IoT backend controller + SPA Client + ML for next day rain probability.</p>
-
+## About The Project </p>
+<p><strong>IoT backend controller + SPA Client + ML for next day rain probability.</strong></p>
+<br>
 <p><strong>Why:</strong> Just to keep my "nerd" spirit updated technology wise regarding HTML5, CSS3, SVG, RUST, Javascript ECMA2015, WebApps, Apache, SqLite, Linux, ...</p>
 <br>
 <p>First version was made with Python and MySql in the backend, but I simplified the database engine (sqlite uses less server resources than mysql) and with rust we use much less CPU, meaning lower power consuption (0%..0.5% versus 20%..40%)</p>
@@ -76,7 +77,7 @@
 <div align="center">
   <a href="https://github.com/CarlosLagarto/controller_share">
     <!-- <img src="images/logo.svg" alt="Logo" width="80" height="80">-->
-    <img src="images/Screenshot_Weather.jpg" alt="Weather" > 
+    <img src="images/Screenshot_Weather.jpg" alt="Weather" height="80" > 
   </a>
   <a href="https://github.com/CarlosLagarto/controller_share">
     <!-- <img src="images/logo.svg" alt="Logo" width="80" height="80">-->
