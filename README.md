@@ -1,16 +1,15 @@
 <a name="readme-top"></a>
 
 <br />
-<div style="display: flex;">
+<div display="flex">
     <div align="center" width="20%">
         <h3 align="center">Lagarto Controller</h3>
         <a href="https://github.com/CarlosLagarto/controller_share">
             <img src="images/logo.svg" alt="Logo" width="80" height="80">
         </a>
     </div>
-    <div >
-        <h3 align="center">Built With</h3> 
-        <!-- <p> -->
+    <div width="40%">
+        <h3 align="center">Built With</h3>
 [![RUST][rust]][rust-url]
 [![Javacript][javascript]][javascript-url]
 [![Mosquitto][mosquitto]][mosquitto-url]
@@ -18,7 +17,6 @@
 [![Shelly][shelly]][shelly-url]
 [![Tempest][tempest]][tempest-url]
 [![SQLite][sqlite]][sqlite-url]
-        <!-- </p> -->
     </div>
 </div>
 
